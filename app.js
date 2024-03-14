@@ -17,7 +17,7 @@ form.addEventListener('submit', function (e) {
 taskArea.addEventListener("click", function(event) {
     if (event.target.tagName === "BUTTON") {
       event.target.parentElement.remove();
-    }else if (event.target.tagName === 'LI') {
+    } else if (event.target.tagName === 'LI') {
         event.target.classList.toggle('checked');
     }
 }); 
